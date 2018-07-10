@@ -90,8 +90,6 @@ F3 = Ds_Da16.*((C_16-C_8)./(z(3)-z(2)));
 
 for i=1:length(F1) %Calculation of means for Node 1
     
-    %length(F1)-i
-    
 p = polyfit(z2,[F1(i) F2(i) F3(i)], 1);
 
 F0(i)=p(2);
