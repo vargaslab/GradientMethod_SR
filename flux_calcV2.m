@@ -85,7 +85,7 @@ F2 = Ds_Da2_16.*((C_16-C_2)./(z(3)-z(1)));
 F3 = Ds_Da16.*((C_16-C_8)./(z(3)-z(2)));
 
 
-%%%%%Calculation of the Flux at soil surface%%%%
+%%%%%Calculation of the Flux at soil surface
 
 
 for i=1:length(F1) %Calculation of means for Node 1
@@ -100,7 +100,7 @@ end
 
 F0=F0';
 
-%%%%%Calculation of the soil CO2 production%%%%
+%%%%%Calculation of the soil CO2 production
 % p1 = 0.07..... or distance in between 0.05 and 0.09 m
 % p2 = 0.085..... or distance in between 0.05 and 0.12 m
 % p3 = 0.105..... or distance in between 0.09 and 0.12 m
